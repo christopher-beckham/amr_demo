@@ -1,6 +1,6 @@
 import torch
 from torch import nn
-from .shared import networks
+from architectures.shared import networks
 from functools import partial
 
 def get_network():
